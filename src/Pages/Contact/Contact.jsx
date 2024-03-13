@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Contact.css';
 import Footer from '../0Components/Footer/Footer';
 
 const Contact = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div className='contact-page'>
             <div className="contact-container">
@@ -18,11 +21,11 @@ const Contact = () => {
                     </div>
                     <div className="contact-block">
                         <p>GitHub:</p>
-                        <a href='https://github.com/AleyH30' target='_blank'> View GitHub</a>
+                        <a href='https://github.com/AleyH30' target='_blank' rel="noreferrer"> View GitHub</a>
                     </div>
                     <div className="contact-block">
                         <p>LinkedIn:</p>
-                        <a href='https://www.linkedin.com/in/aleyh30/' target='_blank'> View Profile</a>
+                        <a href='https://www.linkedin.com/in/aleyh30/' target='_blank' rel="noreferrer"> View Profile</a>
                     </div>
                 </div>
             </div>

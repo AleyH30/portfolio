@@ -1,6 +1,7 @@
 .contact-page{
-    min-height: 90vh;
+    min-height: 93vh;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 .contact-container{

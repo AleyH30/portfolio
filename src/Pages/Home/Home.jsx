@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Home.css';
 import Footer from '../0Components/Footer/Footer';
 import csharpicon from './0Components/SkillIcons/csharpicon.png';
@@ -12,11 +12,14 @@ import githubicon from './0Components/SkillIcons/githubicon.png'
 import {Link} from 'react-router-dom'
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div className='home-page'>
             <div className="intro-container">
                 <div className="intro-contents">
-                    <div className='res-wrapper'>
+                    <div className='intro-res-wrapper'>
                         <div className="intro-aboutme">
                             <p className='intro-aboutme-title'>About Me</p>
                             <p className='intro-aboutme-blurb'>
