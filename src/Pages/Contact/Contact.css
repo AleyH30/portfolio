@@ -1,0 +1,32 @@
+.contact-page{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact-container{
+    width: 80%;
+    height: 600px;
+    margin: 50px auto;
+    border: 5px solid rgb(245, 245, 245);
+    box-shadow: 0px 0px 25px 10px rgb(149, 213, 125);
+}
+.contact-info-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-header{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Abhaya Libre';;
+}
+.contact-block{
+    font-size: 18px;
+    text-align: center;
+    
+}
+.contact-block a{
+    color: rgb(86, 197, 86);
+}
