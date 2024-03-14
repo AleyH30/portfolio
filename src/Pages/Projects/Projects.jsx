@@ -19,9 +19,8 @@ const Projects = () => {
                         <div className='project-desc'>
                             <p className='project-desc-header'>Park Diary</p>
                             <p className='project-desc-par'>
-                                An information retrieval website that allows users to search national parks and receive information about
-                                a park using the National Park Service API. This front-end, fully responsive website features a 
-                                beautiful moving image gallery, organized data presentation, as well as Google Maps integration.
+                                An information retrieval website that allows users to search and receive information about a national park using the National Park Service API. 
+                                This front-end, fully responsive website features a beautiful moving image gallery, organized data presentation, as well as Google Maps integration.
                             </p>
                             <div className='project-links'>
                                 <a href='https://aleyh30.github.io/parkdiary' target='_blank' rel="noreferrer">
