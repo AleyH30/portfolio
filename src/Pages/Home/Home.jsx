@@ -23,7 +23,7 @@ const Home = () => {
                         <div className="intro-aboutme">
                             <p className='intro-aboutme-title'>About Me</p>
                             <p className='intro-aboutme-blurb'>
-                                Hello, i'm Alexis. I am a front-end web developer (with backend knowledge as well) 
+                                Hello, i'm Alexis. I am a front-end developer (with back-end knowledge as well) 
                                 who enjoys making cleanly coded, functional websites.
                                 In my free time, I create mobile games, drink chocolate milkshakes, and watch
                                 anything horror-related. Enjoy my portfolio!
