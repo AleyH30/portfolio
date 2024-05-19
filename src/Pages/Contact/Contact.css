@@ -1,5 +1,5 @@
 .contact-page{
-    min-height: 93vh;
+    min-height: 93dvh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -8,8 +8,8 @@
     width: 80%;
     height: 600px;
     margin: 50px auto;
-    border: 5px solid rgb(245, 245, 245);
-    box-shadow: 0px 0px 25px 10px rgb(149, 213, 125);
+    border: 5px solid rgb(224, 255, 214);
+    background-color: white;
 }
 .contact-info-container{
     margin-top: 30px;

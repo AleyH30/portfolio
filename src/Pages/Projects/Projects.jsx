@@ -4,6 +4,7 @@ import Footer from '../0Components/Footer/Footer';
 import parkdiarySiteImg from "./0Components/Images/nat-park-site.png";
 import flareSiteImg from "./0Components/Images/clothing-store-site.png";
 import peaterySiteImg from "./0Components/Images/restaurant-site.png";
+import blogSiteImg from "./0Components/Images/blog-site.png";
 
 const Projects = () => {
 
@@ -16,6 +17,34 @@ const Projects = () => {
             <div className="projects-display-container">
                 <div className="project-row project-row-a">
                     <div className='res-wrapper'>
+                    <div className='project-desc'>
+                            <p className='project-desc-header'>BlogLife</p>
+                            <p className='project-desc-par'>
+                            A social media website where users can blog about their lives or interests. 
+                            This full-stack, fully responsive MERN website gives users the ability to create, edit, and delete their own post or view, like, & unlike the posts of other users. 
+                            Users may also follow or unfollow other users. Other features include image file uploads, React-Quill rich text editor integration and a personalized home feed based
+                            on who user is following. 
+                            </p>
+                            <div className='project-links'>
+                                <a href='https://bloglife-rzg1.onrender.com' target='_blank' rel="noreferrer">
+                                    <button className='project-link-btns'>Go to Website</button>
+                                </a>
+                                <a href='https://github.com/AleyH30/bloglife' target='_blank' rel="noreferrer">
+                                    <button className='project-link-btns'>Go to Github</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="project-image-container">
+                            <div className='project-img-container'>
+                                <a href='https://bloglife-rzg1.onrender.com' target='_blank' rel="noreferrer">
+                                    <img src={blogSiteImg} alt='' /> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="project-row project-row-b">
+                    <div className='res-wrapper res-wrapper-b'>
                         <div className='project-desc'>
                             <p className='project-desc-header'>Park Diary</p>
                             <p className='project-desc-par'>
@@ -31,17 +60,17 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="project-image-container">
+                        <div className="project-image-container project-image-container-b">
                             <div className='project-img-container'>
                                 <a href='https://aleyh30.github.io/parkdiary' target='_blank' rel="noreferrer">
-                                    <img src={parkdiarySiteImg} alt='' /> 
+                                    <img src={parkdiarySiteImg} alt='' />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="project-row project-row-b">
-                    <div className='res-wrapper res-wrapper-b'>
+                <div className="project-row project-row-a">
+                    <div className='res-wrapper'>
                         <div className='project-desc'>
                             <p className='project-desc-header'>Flare</p>
                             <p className='project-desc-par'>An e-commerce website for clothing apparel. This front-end, fully responsive website features a functional filter system
@@ -58,7 +87,7 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="project-image-container project-image-container-b">
+                        <div className="project-image-container">
                             <div className='project-img-container'>
                                 <a href='https://aleyh30.github.io/flare' target='_blank' rel="noreferrer">
                                     <img src={flareSiteImg} alt='' />
@@ -67,8 +96,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="project-row project-row-a">
-                    <div className='res-wrapper'>
+                <div className="project-row project-row-b">
+                    <div className='res-wrapper res-wrapper-b'>
                         <div className='project-desc'>
                             <p className='project-desc-header'>Pinela's Eatery</p>
                             <p className='project-desc-par'>A business website for an elite restaurant that features an expandable restaurant menu, image gallery, and other details that enhance user experience.
@@ -84,7 +113,7 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="project-image-container">
+                        <div className="project-image-container project-image-container-b">
                             <div className='project-img-container'>
                                 <a href='https://aleyh30.github.io/peatery' target='_blank' rel="noreferrer">
                                     <img src={peaterySiteImg} alt='' />
