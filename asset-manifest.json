@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.08a17f28.css",
-    "main.js": "/portfolio/static/js/main.7865679f.js",
+    "main.js": "/portfolio/static/js/main.5ca555e8.js",
     "static/media/nat-park-site.png": "/portfolio/static/media/nat-park-site.fcf44f7f2ca4e22e5506.png",
     "static/media/restaurant-site.png": "/portfolio/static/media/restaurant-site.4ef8777b8606a5735d75.png",
     "static/media/clothing-store-site.png": "/portfolio/static/media/clothing-store-site.c913a05907a1abc7a97d.png",
@@ -12,10 +12,10 @@
     "static/media/githubicon.png": "/portfolio/static/media/githubicon.4eaed67e7bb1f6746f72.png",
     "index.html": "/portfolio/index.html",
     "main.08a17f28.css.map": "/portfolio/static/css/main.08a17f28.css.map",
-    "main.7865679f.js.map": "/portfolio/static/js/main.7865679f.js.map"
+    "main.5ca555e8.js.map": "/portfolio/static/js/main.5ca555e8.js.map"
   },
   "entrypoints": [
     "static/css/main.08a17f28.css",
-    "static/js/main.7865679f.js"
+    "static/js/main.5ca555e8.js"
   ]
 }
