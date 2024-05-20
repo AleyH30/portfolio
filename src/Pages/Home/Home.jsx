@@ -26,7 +26,7 @@ const Home = () => {
                                 Hello, I'm Alexis. I am a full-stack developer 
                                 who enjoys making cleanly coded, functional applications.
                                 In my free time, I create mobile games, drink chocolate milkshakes, and watch
-                                anything horror-related. Enjoy my portfolio!
+                                anything spooky-related. Enjoy my portfolio!
                             </p>
                             <Link to='/projects'><button className="intro-projects-btn"> View my projects!</button></Link>
                         </div>
