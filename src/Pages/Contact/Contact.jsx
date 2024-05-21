@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
+import resume from "../../Components/Alexis_Hall_Resume2024.pdf"
 import './Contact.css';
-import Footer from '../0Components/Footer/Footer';
 
 const Contact = () => {
     useEffect(() => {
@@ -24,12 +24,12 @@ const Contact = () => {
                         <a href='https://github.com/AleyH30' target='_blank' rel="noreferrer"> View GitHub</a>
                     </div>
                     <div className="contact-block">
-                        <p>LinkedIn:</p>
-                        <a href='https://www.linkedin.com/in/aleyh30/' target='_blank' rel="noreferrer"> View Profile</a>
+                        <a className="contact-resume-downloader" href={resume} download="Alexis_Hall_Resume2024">
+                            Download My Resume
+                        </a>
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

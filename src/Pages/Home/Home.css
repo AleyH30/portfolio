@@ -1,5 +1,5 @@
 .home-page{
-    min-height: 93vh;
+    min-height: calc(100dvh - 105px);
 
     display: flex;
     flex-direction: column;
@@ -45,15 +45,20 @@
     font-size: 18px;
 }
 .intro-projects-btn{
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     width: 200px;
     height: 40px;
     font-size: 16px;
+    text-decoration: none;
     color: black;
     font-family: 'Tenor sans', sans-serif;
     background-color: white;
     border: 2px solid rgb(230, 230, 230);
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .intro-projects-btn:hover{
     background-color: rgb(243, 243, 243);

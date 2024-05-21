@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import './Projects.css';
-import Footer from '../0Components/Footer/Footer';
 import parkdiarySiteImg from "./0Components/Images/nat-park-site.png";
 import flareSiteImg from "./0Components/Images/clothing-store-site.png";
 import peaterySiteImg from "./0Components/Images/restaurant-site.png";
@@ -49,7 +48,7 @@ const Projects = () => {
                             <p className='project-desc-header'>Park Diary</p>
                             <p className='project-desc-par'>
                                 An information retrieval website that allows users to search and receive information about a national park using the National Park Service API. 
-                                This front-end, fully responsive website features a beautiful moving image gallery, organized data presentation, as well as Google Maps integration.
+                                This front-end, fully responsive React website features a beautiful moving image gallery, organized data presentation, as well as Google Maps integration.
                             </p>
                             <div className='project-links'>
                                 <a href='https://aleyh30.github.io/parkdiary' target='_blank' rel="noreferrer">
@@ -73,7 +72,7 @@ const Projects = () => {
                     <div className='res-wrapper'>
                         <div className='project-desc'>
                             <p className='project-desc-header'>Flare</p>
-                            <p className='project-desc-par'>An e-commerce website for clothing apparel. This front-end, fully responsive website features a functional filter system
+                            <p className='project-desc-par'>An e-commerce website for clothing apparel. This front-end, fully responsive React website features a functional filter system
                                 that allows user to sort by price, color, and size, full cart functionality including the ability to remove or increase quantity,
                                 sliders to showcase products and a fully working single product display that allows users to smoothly
                                 switch between product colors and images.
@@ -101,7 +100,7 @@ const Projects = () => {
                         <div className='project-desc'>
                             <p className='project-desc-header'>Pinela's Eatery</p>
                             <p className='project-desc-par'>A business website for an elite restaurant that features an expandable restaurant menu, image gallery, and other details that enhance user experience.
-                                This front-end, fully responsive website also features a reservation section that integrates the MUI API date and time selection feature and a contact section 
+                                This front-end, fully responsive React website also features a reservation section that integrates the MUI API date and time selection feature and a contact section 
                                 that allows for customer inquiries to be set-up.
                             </p>
                             <div className='project-links'>
@@ -123,7 +122,6 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

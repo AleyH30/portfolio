@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import './Home.css';
-import Footer from '../0Components/Footer/Footer';
 import csharpicon from './0Components/SkillIcons/csharpicon.png';
 import cssicon from './0Components/SkillIcons/cssicon.png'
 import htmlicon from './0Components/SkillIcons/htmlicon.png'
@@ -28,7 +27,7 @@ const Home = () => {
                                 In my free time, I create mobile games, drink chocolate milkshakes, and watch
                                 anything spooky-related. Enjoy my portfolio!
                             </p>
-                            <Link to='/projects'><button className="intro-projects-btn"> View my projects!</button></Link>
+                            <Link to='/projects' className="intro-projects-btn"> <p>View my projects!</p></Link>
                         </div>
                         <div className="intro-name">
                             <p>Alexis<br/>Nicole<br/>Hall</p>
@@ -46,7 +45,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

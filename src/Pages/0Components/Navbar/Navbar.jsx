@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="navbar-container">
             <div className="navbar-contents">
                 <div className="navbar-res-wrapper">
-                    <p className="logo-btn"><Link to='/'>ANH</Link></p>
+                    <p className="logo-btn"><Link to='/' onClick={() => setSidebarActive(false)}>ANH</Link></p>
                     <button className="sidebar-toggle-btn" onClick={() => setSidebarActive(!sidebarActive)}>
                         {sidebarActive? <FontAwesomeIcon icon={faXmark}/> : <FontAwesomeIcon icon={faBars} />}
                         </button>
