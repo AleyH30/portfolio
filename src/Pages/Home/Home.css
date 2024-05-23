@@ -1,6 +1,7 @@
 .home-page{
     min-height: calc(100dvh - 105px);
-
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
