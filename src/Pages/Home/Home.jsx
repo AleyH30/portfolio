@@ -23,8 +23,8 @@ const Home = () => {
                             <p className='intro-aboutme-title'>About Me</p>
                             <p className='intro-aboutme-blurb'>
                                 Hello, I'm Alexis. I am a full-stack developer 
-                                who enjoys making cleanly coded, functional applications. I specialize in React, JavaScript, C#, CSS and HTML.
-                                In my free time, I create mobile games, drink chocolate milkshakes, and watch
+                                who enjoys making cleanly-coded applications. I specialize in ReactJS, JavaScript, C#, CSS, HTML, NodeJS, and MongoDB.
+                                In my free time, I create mobile games and watch
                                 anything spooky-related. Enjoy my portfolio!
                             </p>
                             <Link to='/projects' className="intro-projects-btn"> <p>View my projects!</p></Link>
