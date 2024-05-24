@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8bbc5ec2.css",
+    "main.css": "/portfolio/static/css/main.1683bf04.css",
     "main.js": "/portfolio/static/js/main.523df49d.js",
     "static/media/nat-park-site.png": "/portfolio/static/media/nat-park-site.fcf44f7f2ca4e22e5506.png",
     "static/media/restaurant-site.png": "/portfolio/static/media/restaurant-site.4ef8777b8606a5735d75.png",
@@ -12,11 +12,11 @@
     "static/media/csharpicon.png": "/portfolio/static/media/csharpicon.264ea095991439631bcf.png",
     "static/media/githubicon.png": "/portfolio/static/media/githubicon.4eaed67e7bb1f6746f72.png",
     "index.html": "/portfolio/index.html",
-    "main.8bbc5ec2.css.map": "/portfolio/static/css/main.8bbc5ec2.css.map",
+    "main.1683bf04.css.map": "/portfolio/static/css/main.1683bf04.css.map",
     "main.523df49d.js.map": "/portfolio/static/js/main.523df49d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bbc5ec2.css",
+    "static/css/main.1683bf04.css",
     "static/js/main.523df49d.js"
   ]
 }
