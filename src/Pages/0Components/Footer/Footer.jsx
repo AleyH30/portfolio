@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <footer>
-            <div>Made by ANH</div>
+            <div>ANH</div>
         </footer>
 
     )
