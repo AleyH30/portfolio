@@ -35,24 +35,25 @@
     flex-basis: 45%;
     text-align: center;
     line-height: 1.6;
-    font-family: 'Tenor sans', sans-serif;
     color: black;
 }
 .intro-aboutme-title{
     font-weight: 700;
     font-size: 20px;
+    font-family: "Tenor Sans", serif;
 }
 .intro-aboutme-blurb{
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
 }
 .intro-projects-btn{
     margin: 20px auto 0 auto;
     width: 200px;
     height: 40px;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
-    font-family: 'Tenor sans', sans-serif;
+    font-family: "EB Garamond", serif;
     background-color: white;
     border: 2px solid rgb(230, 230, 230);
     cursor: pointer;

@@ -16,7 +16,7 @@
     padding: 50px 0px;
     
     background-color: white;
-    font-family: 'Tenor sans';
+    font-family: "EB Garamond", serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@
 }
 .project-desc{
     flex-basis: 45%;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.6;
     color: black;
 }
@@ -79,9 +79,9 @@
 .project-link-btns{
     width: 200px;
     height: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
-    font-family: 'Tenor sans';
+    font-family: "EB Garamond", serif;
     cursor: pointer;
     background-color: rgb(161, 224, 140);
     border: 0.5px solid black;

@@ -2,9 +2,9 @@ footer {
     width: 100%;
     height: 45px;
     border-top: 2px solid rgba(245, 245, 245, 1);
-    font-size: 14px;
+    font-size: 16px;
     background-color: white;
-    font-family: 'Tenor sans';
+    font-family: "EB Garamond", serif;
     
     display: flex;
     justify-content: center;
