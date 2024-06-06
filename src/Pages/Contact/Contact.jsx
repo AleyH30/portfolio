@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import resume from "../../Components/Alexis_Hall_Resume2024.pdf"
+import resume from "../../Components/AlexisHall_Resume2024.pdf"
 import './Contact.css';
 
 const Contact = () => {
