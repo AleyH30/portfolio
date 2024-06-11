@@ -8,6 +8,7 @@ import mongodbicon from './0Components/SkillIcons/mongodbicon.png'
 import nodejsicon from './0Components/SkillIcons/nodejsicon.png'
 import reacticon from './0Components/SkillIcons/reacticon.png'
 import githubicon from './0Components/SkillIcons/githubicon.png'
+import pythonicon from './0Components/SkillIcons/pythonicon.png'
 import {Link} from 'react-router-dom'
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
                             <p className='intro-aboutme-title'>About Me</p>
                             <p className='intro-aboutme-blurb'>
                                 Hello, I'm Alexis. I am a full-stack developer 
-                                who enjoys making cleanly-coded applications. I specialize in ReactJS, JavaScript, C#, CSS, HTML, NodeJS, and MongoDB.
+                                who enjoys making cleanly-coded applications. I specialize in ReactJS, JavaScript, C#, Python, CSS, HTML, NodeJS, and MongoDB.
                                 In my free time, I create mobile games and watch
                                 anything spooky-related. Enjoy my portfolio!
                             </p>
@@ -39,6 +40,7 @@ const Home = () => {
                         <div className='skills-img-container'><img src={cssicon} alt=''/></div>
                         <div className='skills-img-container'><img src={htmlicon} alt=''/></div>
                         <div className='skills-img-container'><img src={csharpicon} alt=''/></div>
+                        <div className='skills-img-container'><img src={pythonicon} alt=''/></div>
                         <div className='skills-img-container'><img src={nodejsicon} alt=''/></div>
                         <div className='skills-img-container'><img src={githubicon} alt=''/></div>
                         <div className='skills-img-container'><img src={mongodbicon} alt=''/></div>

@@ -24,7 +24,7 @@ const Contact = () => {
                         <a href='https://github.com/AleyH30' target='_blank' rel="noreferrer"> View GitHub</a>
                     </div>
                     <div className="contact-block">
-                        <a className="contact-resume-downloader" href={resume} download="Alexis_Hall_Resume2024">
+                        <a className="contact-resume-downloader" href={resume} download="AlexisHall_Resume2024">
                             Download My Resume
                         </a>
                     </div>
